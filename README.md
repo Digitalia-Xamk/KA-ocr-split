@@ -1,5 +1,6 @@
 # KA-ocr-split
-Kansallisarkiston päätöspöytäkirjojen ocr luenta ja splittaus. Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla myös käytetyt versiot mutta uudemmatkin toiminevat.
+Kansallisarkiston päätöspöytäkirjojen ocr luenta ja splittaus. Koodit toteuttanut Xamkin Digitalia-tutkimuskeskus (www.digitalia.fi) ja materiaalit toimittanut Kansallisarkisto (https://www.arkisto.fi/). 
+Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla myös käytetyt versiot mutta uudemmatkin toiminevat.
 
 Tesseract
 4.0.0-beta.4-50-g07acc
