@@ -42,11 +42,11 @@ https://pypi.org/project/PyPDF2/
 pdf-dokumenttien sisällön parsinta
 https://pypi.org/project/pdfminer/
 
-*KA-ocr-pdf.py on OCR luvun tekevä skripti. Optimoitu tällä hetkellä suurelle määrälle kansioita, joista jokainen sisältää yhteen kokonaisuuteen kuuluvat kuvat. Lopullisen ocr-tiedon sisältävän pdf tiedoston nimeksi tulee kuvatiedostot sisältävän kansion edeltävä kansionimi_kaikki.pdf  --> Esim. sample/3979637.KA/jpeg hakemiston sisällöstä tehdään 3979637.KA_kaikki.pdf tiedosto. Käyttö muuten järjestellyn materiaalin kanssa vaatii muutoksia koodiin.
+* KA-ocr-pdf.py on OCR luvun tekevä skripti. Optimoitu tällä hetkellä suurelle määrälle kansioita, joista jokainen sisältää yhteen kokonaisuuteen kuuluvat kuvat. Lopullisen ocr-tiedon sisältävän pdf tiedoston nimeksi tulee kuvatiedostot sisältävän kansion edeltävä kansionimi_kaikki.pdf  --> Esim. sample/3979637.KA/jpeg hakemiston sisällöstä tehdään 3979637.KA_kaikki.pdf tiedosto. Käyttö muuten järjestellyn materiaalin kanssa vaatii muutoksia koodiin.
 
-*KARemoveBlanks.py yrittää poistaa yllä mainitun skriptin jättämät tyhjät tiedostot lukemalla sisällön pdfminerillä ja etsimällä sivuja joilla ei ole tekstiksi luokiteltavaa aineistoa
+* KARemoveBlanks.py yrittää poistaa yllä mainitun skriptin jättämät tyhjät tiedostot lukemalla sisällön pdfminerillä ja etsimällä sivuja joilla ei ole tekstiksi luokiteltavaa aineistoa
 
-*KACountBefore-After.py Lukee jpeg kansion sisällön ja laskee alkuperäiset sivut. Lisäksi skannaa generoidun kaikki.pdf tiedoston läpi ja laskee sen sivunumerot. Tulokset kirjoitetaan pages_before_ocr.txt ja pages_after_ocr.txt tiedostoihin 
+* KACountBefore-After.py Lukee jpeg kansion sisällön ja laskee alkuperäiset sivut. Lisäksi skannaa generoidun kaikki.pdf tiedoston läpi ja laskee sen sivunumerot. Tulokset kirjoitetaan pages_before_ocr.txt ja pages_after_ocr.txt tiedostoihin 
 
 
 
