@@ -28,9 +28,11 @@ Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla 
 ### pdfminer
 20140328,pdf-dokumenttien sisällön parsinta, https://pypi.org/project/pdfminer/
 
-### pdfplumber
+### pdfplumber https://github.com/jsvine/pdfplumber
+Tekstin ekstraktointiin
 
-### pikepdf
+### pikepdf https://pypi.org/project/pikepdf/
+Muodostaa pilkotut tiedostot
 
 ## Python koodit
 
@@ -40,7 +42,13 @@ Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla 
 
 * KACountBefore-After.py Lukee jpeg kansion sisällön ja laskee alkuperäiset sivut. Lisäksi skannaa generoidun kaikki.pdf tiedoston läpi ja laskee sen sivunumerot. Tulokset kirjoitetaan pages_before_ocr.txt ja pages_after_ocr.txt tiedostoihi 
 
-* minePDF.py Varsinainen PDF parsinnan tekevä koodir jota KARemoveBlanks.py tarvitsee
+* minePDF.py Varsinainen PDF parsinnan tekevä koodir jota KARemoveBlanks.py ja KAdivPDFbyKEYPlumb.py tarvitsevat
+
+* KAdivPDFbyKEYPlumb.py Suorittaa osa1:n aineistojen pilkonnan
+
+* KACheckPDFPageCount.py Muodostaa osa1:n kansioon sisällysluettelon
+
+
 
 ## Muut
 * formats.csv, tiedostolista ImageMagickin tukemista formaateista joita KA-ocr.pdf.py hyödyntää konvertoidessaan lähtötiedostoja
