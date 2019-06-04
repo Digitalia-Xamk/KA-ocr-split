@@ -34,7 +34,11 @@ Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla 
 
 * KARemoveBlanks.py yrittää poistaa yllä mainitun skriptin jättämät tyhjät tiedostot lukemalla sisällön pdfminerillä ja etsimällä sivuja joilla ei ole tekstiksi luokiteltavaa aineistoa
 
-* KACountBefore-After.py Lukee jpeg kansion sisällön ja laskee alkuperäiset sivut. Lisäksi skannaa generoidun kaikki.pdf tiedoston läpi ja laskee sen sivunumerot. Tulokset kirjoitetaan pages_before_ocr.txt ja pages_after_ocr.txt tiedostoihin 
+* KACountBefore-After.py Lukee jpeg kansion sisällön ja laskee alkuperäiset sivut. Lisäksi skannaa generoidun kaikki.pdf tiedoston läpi ja laskee sen sivunumerot. Tulokset kirjoitetaan pages_before_ocr.txt ja pages_after_ocr.txt tiedostoihi 
 
+* minePDF.py Varsinainen PDF parsinnan tekevä koodir jota KARemoveBlanks.py tarvitsee
+
+## Muut
+* formats.csv, tiedostolista ImageMagickin tukemista formaateista joita KA-ocr.pdf.py hyödyntää konvertoidessaan lähtötiedostoja
 
 
