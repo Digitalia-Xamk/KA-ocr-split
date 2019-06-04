@@ -28,6 +28,10 @@ Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla 
 ### pdfminer
 20140328,pdf-dokumenttien sisällön parsinta, https://pypi.org/project/pdfminer/
 
+### pdfplumber
+
+### pikepdf
+
 ## Python koodit
 
 * KA-ocr-pdf.py on OCR luvun tekevä skripti. Optimoitu tällä hetkellä suurelle määrälle kansioita, joista jokainen sisältää yhteen kokonaisuuteen kuuluvat kuvat. Lopullisen ocr-tiedon sisältävän pdf tiedoston nimeksi tulee kuvatiedostot sisältävän kansion edeltävä kansionimi_kaikki.pdf  --> Esim. sample/3979637.KA/jpeg hakemiston sisällöstä tehdään 3979637.KA_kaikki.pdf tiedosto. Käyttö muuten järjestellyn materiaalin kanssa vaatii muutoksia koodiin.
