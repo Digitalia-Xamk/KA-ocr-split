@@ -80,7 +80,7 @@ def getPDFPagePlainText(page, interpreter, device):
     textContent = parse_obj_just_text(layout, textContent)
     return textContent    
 
-def parse_obj_just_text(lt_objs, textContent):    
+def parse_obj_just_text(lt_objs, textContent):
     #print("parse_obj")
     #print(lt_objs)
     """
@@ -92,7 +92,6 @@ def parse_obj_just_text(lt_objs, textContent):
     #forbiddenChars =[',','.',':','>','<','!','?','[',']','(',')','{','}','&']       
    
     for obj in lt_objs:
-        
         #print("Main obj = {}".format(obj))
         # if it's a textbox, print text and location        
         """
@@ -110,15 +109,12 @@ def parse_obj_just_text(lt_objs, textContent):
                 tempword = ""
         """
         if isinstance(obj, pdfminer.layout.LTTextLine): #Further parse textline object            
-            coordinates = obj.bbox
-            #(x0, y0, x1, y1) tuple containing the coordinates of the left, bottom, right, and top
-            #Top of page 792, right of page 612, bottom left 0, 0
             linetext = pdfminer.layout.LTTextLine.get_text(obj)
             """            
             Complete text line - 17.10.2005            
             """            
             textContent.append(linetext)
-            #print("Complete text line - {}, coordinates {}".format(linetext, coordinates))
+            #print("Complete text line - {}".format(linetext))
             #tempword=""
             #parse_obj_just_text(obj._objs, textlocations)
         
