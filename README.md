@@ -28,11 +28,11 @@ Varsinaisten skriptien lisäksi tarvitaan ainakakin seuraavat ohjelmistot. Alla 
 ### pdfminer
 20140328,pdf-dokumenttien sisällön parsinta, https://pypi.org/project/pdfminer/
 
-### pdfplumber https://github.com/jsvine/pdfplumber
-Tekstin ekstraktointiin
+### pdfplumber 
+Tekstin ekstraktointiin https://github.com/jsvine/pdfplumber
 
-### pikepdf https://pypi.org/project/pikepdf/
-Muodostaa pilkotut tiedostot
+### pikepdf
+Muodostaa pilkotut tiedostot  https://pypi.org/project/pikepdf/
 
 ## Python koodit
 
